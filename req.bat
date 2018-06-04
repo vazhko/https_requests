@@ -1,0 +1,2 @@
+..\curl-7.60.0-win64-mingw\bin\curl.exe -v --header "Content-Type: application/xml;charset=windows-1251" --data @out.xml -k "https://testapi.incust.com/external_data/systemgroup" -o in.txt --trace debugdump.txt
+pause
